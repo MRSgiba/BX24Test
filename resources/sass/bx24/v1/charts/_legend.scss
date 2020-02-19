@@ -1,0 +1,55 @@
+/**
+Набор цветов для графиков задан в resources/sass/vendor/lbd/mixins/_chartist.scss
+на строке 69. Но как их использовать я не понял :(
+
+Поэтому просто повторю их здесь, в будущем это можно переделать.
+ */
+
+.legend-placeholder {
+  color: #C3C3C3;
+}
+.legend-0 {
+  color: $new-blue;
+}
+.legend-1 {
+  color: $new-red;
+}
+.legend-2 {
+  color: $new-orange;
+}
+.legend-3 {
+  color: $new-purple;
+}
+.legend-4 {
+  color: $new-green;
+}
+.legend-5 {
+  color: $new-dark-blue;
+}
+.legend-6 {
+  color: $new-black;
+}
+.legend-7 {
+  color: $social-google;
+}
+.legend-8 {
+  color: $social-tumblr;
+}
+.legend-9 {
+  color: $social-youtube;
+}
+.legend-10 {
+  color: $social-twitter;
+}
+.legend-11 {
+  color: $social-pinterest;
+}
+.legend-12 {
+  color: $social-behance;
+}
+.legend-13 {
+  color: #6188e2;
+}
+.legend-14 {
+  color: #a748ca;
+}

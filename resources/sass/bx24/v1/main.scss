@@ -1,0 +1,51 @@
+/**
+В качестве основы для внешнего вида используется шаблон Vue Light Bootstrap Dashboard из
+набора шаблонов, приобритенных компанией.
+
+Ссылка: http://www.creative-tim.com/product/light-bootstrap-dashboard.
+
+Так как не все части этого шаблона необходимы, а так же не совсем подходит способ сборки, то
+данный шаблон будет использоваться не полностью.
+
+Файл light-bootstrap-dashboard.scss является основой для сборки этого файла.
+ */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~sweetalert2/dist/sweetalert2.css";
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+
+// С помощью этого файла можно переназначить переменные шаблона LBD
+@import "variables";
+
+@import "../../vendor/lbd/variables";
+@import "../../vendor/lbd/mixins";
+
+@import "../../vendor/lbd/typography";
+
+// Core CSS
+@import "../../vendor/lbd/misc";
+@import "../../vendor/lbd/sidebar-and-main-panel";
+@import "../../vendor/lbd/tables";
+@import "../../vendor/lbd/buttons";
+@import "../../vendor/lbd/footers";
+
+// Fancy Stuff
+@import "../../vendor/lbd/cards";
+@import "../../vendor/lbd/chartist";
+@import "../../vendor/lbd/responsive";
+
+// plugins css
+@import "../../vendor/lbd/plugins/chartist";
+@import "../../vendor/lbd/plugins/sweetalert2";
+.swal2-modal {
+  margin: unset;
+}
+
+// element-ui customizations
+@import "../../vendor/lbd/element/tables";
+
+// Кастомные стили
+@import "charts/legend";
